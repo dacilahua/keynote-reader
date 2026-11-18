@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>KeynoteReader</string>
+<key>CFBundleIdentifier</key><string>local.keynotereader.desktop</string>
+<key>CFBundleName</key><string>Keynote Reader</string>
+<key>CFBundleDisplayName</key><string>Keynote Reader</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>CFBundleShortVersionString</key><string>1.1.1</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSAppleEventsUsageDescription</key><string>读取您选择的 Keynote 文稿中的幻灯片与演讲者注释，在本机生成阅读版 PDF。</string>
+<key>CFBundleDocumentTypes</key><array><dict><key>CFBundleTypeName</key><string>Keynote Presentation</string><key>CFBundleTypeRole</key><string>Viewer</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.keynote.key</string><string>com.apple.iwork.keynote.key</string></array></dict></array>
+</dict></plist>
